@@ -1,0 +1,23 @@
+{
+    "ebbs_next":
+    [
+        {
+            "build": "docker",
+            "run_when": [
+            	"release"
+            ],
+            "config":
+            {
+                "base_image": "ubuntu:latest",
+                "image_name": "eons/img_doxygen",
+                "image_os": "debian",
+                "install":
+                [
+                    "doxygen",
+                    "graphviz",
+                    "pdf2svg"
+                ]
+            }
+        }
+    ]
+}
