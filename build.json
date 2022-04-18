@@ -16,6 +16,9 @@
                     "doxygen",
                     "graphviz",
                     "pdf2svg"
+                ],
+                "tags" : [
+                    "latest"
                 ]
             }
         }
